@@ -1,4 +1,8 @@
-.navigation-wrapper {
+@media (max-width: 650px) {
+
+    /* Navigation homepage */
+
+    .navigation-wrapper {
         flex-direction: column;
         height: 100%;
     }
@@ -41,43 +45,11 @@
         width: 100%;
     }
 
-    /* Hero Section */
-
-    .hero-section {
-        padding: 50px 10px;
-    }
-    
-    .features-section {
-        height: 100%;
-    }
-    .columns-wrapper {
-        flex-direction: column;
-        height: 100%;
-    }
-
-    /* Footer */
-
-    .footer {
-        height: 100%;
-        width: 100%;
-    }
-    .nav-links-footer > .navigation-links {
-        flex-direction: column;
-        height: auto;
-        justify-items: center;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .nav-links-footer > .navigation-links > .nav-link {
-        margin-bottom: 15px;
-    }
-
     /* Skewed Header */
 
     .skewed-header {
         position: relative;
-        height: 300px; /* Ensure the header is large enough to contain the nav-links */
+        height: 300px; /* Ensure the header is large enough to contain all content */
     }
 
     .skewed-header > .header-bg {
@@ -99,6 +71,18 @@
         justify-content: center !important;
         align-items: center;
         z-index: 2;
+    }
+
+    .skewed-header-content {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 0px !important;
+        padding-top: 10px; /* Optional padding for spacing */
+        z-index: 3;
+        text-align: center;
+        width: 100%;
     }
 
     .page-container {

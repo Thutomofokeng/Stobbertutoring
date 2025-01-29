@@ -1,8 +1,4 @@
-@media (max-width: 650px) {
-
-    /* Navigation homepage */
-
-    .navigation-wrapper {
+.navigation-wrapper {
         flex-direction: column;
         height: 100%;
     }
@@ -23,26 +19,35 @@
         margin-top: 15px;
     }
 
+    .nav-links {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 100%;
+        text-align: center;
+    }
+
     .nav-links > .navigation-links {
         flex-direction: column;
         margin-bottom: 20px;
-        height: 100%;
-        
+        height: auto;
     }
 
     .nav-links > .navigation-links > .nav-link {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         font-size: 1em;
         width: 100%;
     }
 
-    /*Hero Section */
+    /* Hero Section */
 
     .hero-section {
         padding: 50px 10px;
     }
     
-    .features-section{
+    .features-section {
         height: 100%;
     }
     .columns-wrapper {
@@ -58,7 +63,7 @@
     }
     .nav-links-footer > .navigation-links {
         flex-direction: column;
-        height: 100%;
+        height: auto;
         justify-items: center;
         text-align: center;
         margin-top: 20px;
@@ -68,43 +73,32 @@
         margin-bottom: 15px;
     }
 
-    /*Skewed Header*/
+    /* Skewed Header */
 
-    .skewed-header-wrapper {
-        padding-top: 100px; /* Ensures space below the header */
+    .skewed-header {
+        position: relative;
+        height: 300px; /* Ensure the header is large enough to contain the nav-links */
     }
 
-    .header-bg {
+    .skewed-header > .header-bg {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
-        height: 250px; /* Adjust to match the header size */
+        height: 100%;
         z-index: 1;
         background-size: cover;
         background-position: center;
     }
 
     .skewed-header > .skewed-header-wrapper {
+        position: relative;
         flex-direction: column;
         height: 100%;
         text-align: center !important;
         justify-content: center !important;
         align-items: center;
-        margin-top: -55px !important;
-    }
-
-    .skewed-header > .header-bg {
-    width: 100%;
-    }
-
-    .skewed-header > .skewed-header-wrapper {
-        margin-top: 0px;
-        height: 100%;
-    }
-
-    .skewed-header > .skewed-header-wrapper {
-        justify-items: center !important;
+        z-index: 2;
     }
 
     .page-container {
@@ -146,5 +140,4 @@
     .page-container > .contact-grid-wrapper > .company-meta-deta-sidebar-wrapper {
         text-align: center;
     }
-
 }

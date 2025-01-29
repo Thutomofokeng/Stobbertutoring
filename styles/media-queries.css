@@ -81,7 +81,7 @@
         text-align: center !important;
         justify-content: center !important;
         align-items: center;
-        margin-top: -55px !important;
+        margin-top: 1px !important;
     }
 
     .skewed-header > .header-bg {

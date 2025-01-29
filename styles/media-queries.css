@@ -70,6 +70,11 @@
 
     /*Skewed Header*/
 
+    .skewed-header {
+        flex-direction: column;
+        height: 100%;
+    }
+
     .skewed-header > .skewed-header-wrapper {
         flex-direction: column;
         height: 100%;

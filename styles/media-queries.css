@@ -87,12 +87,7 @@
     .skewed-header > .header-bg {
     width: 100%;
     }
-
-    .skewed-header > .skewed-header-wrapper {
-        margin-top: 0px;
-        height: 100%;
-    }
-
+    
     .skewed-header > .skewed-header-wrapper {
         justify-items: center !important;
     }
@@ -102,9 +97,9 @@
         height: 100%;
         justify-items: center;
         text-align: center;
-        margin-top: 20px;
-        margin-top: 20px;
     }
+
+    /* Squares */
 
     .page-container {
         padding-left: 21px;

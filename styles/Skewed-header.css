@@ -1,0 +1,91 @@
+/* Skewed header styles */
+
+.skewed-header > .skewed-header-wrapper > .nav-links > .navigation-links  > .nav-link a {
+    color: white;
+}
+.skewed-header {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+.skewed-header > .header-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    filter: brightness(15%);
+}
+
+.skewed-header > .skewed-header-wrapper {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.skewed-header > .skewed-header-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content {
+    background-color: #725400;
+    color: white;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 175px;
+    padding: 10px;
+    text-align: center;
+}
+
+.skewed-header > .skewed-header-wrapper > .nav-links > .navigation-links > .nav-link {
+    font-family: 'Ubuntu Condensed' , sans-serif;
+    color: white;
+    }
+    
+.skewed-header > .skewed-header-wrapper > .nav-links > .navigation-links {
+    width: 500Spx;
+    height: 100%;
+}
+
+.skewed-header > .skewed-header-wrapper > .nav-links > .navigation-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skewed-header > .skewed-header-wrapper > .nav-links > .navigation-links a {
+    font-family: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.skewed-header > .skewed-header-wrapper > .nav-links > .navigation-links a:hover {
+    color: #725400;
+    letter-spacing: 2px;
+}
+
+.skewed-header > .skewed-header-wrapper > .nav-links > .navigation-links {
+    justify-content: center;
+    text-align: center;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content {
+    margin-left: 100px;
+}
+
+.skewed-header > .skewed-header-wrapper > .nav-links .navigation-links {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    padding: 10px;
+}

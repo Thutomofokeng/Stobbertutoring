@@ -1,0 +1,109 @@
+/* Footer Styles */
+.footer {
+    background-color: #272727;
+    color: #cbcbcb;
+    height: 390px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.nav-links-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links-footer > .navigation-links {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 30px;
+}
+
+.footer > .nav-links-footer > .navigation-links > .nav-link a {
+    font-family: 'Ubuntu' , sans-serif;
+    color: #cbcbcb;
+}
+
+.footer > .bottom-text {
+    display: flex;
+    justify-content: center;
+    color: gray;
+    font-size: 0.7em;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.footer > .nav-links-footer > .navigation-links > .nav-link a {
+    font-family: 'Ubuntu' , sans-serif;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 0.9em;
+}
+
+.footer > .nav-links-footer > .navigation-links > .nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+.footer > .contact-hours-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.footer > .footer-logo {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    filter: brightness(80%);
+}
+
+.footer > .social-media-icons > .icon-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+} 
+
+.footer > .contact-hours-wrapper > .phone {
+    margin: 1em;
+    font-size: 0.8em;
+    color: #cbcbcb;
+}
+
+.footer > .contact-hours-wrapper > .hours {
+    margin: 1em;
+    color: #cea135;
+    font-size: 0.8em;
+}
+
+.footer > .bottom-text {
+    font-size: 0.7em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.footer > .social-media-icons {
+    color: #cbcbcb;
+    display: grid;
+    justify-content: center;
+}
+
+.footer > .social-media-icons >.icon-wrapper > .icon {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 30px;
+    margin-right: 30px;
+    filter: brightness(90%);
+}
+
+.footer > .social-media-icons >.icon-wrapper > .icon a {
+    color: #cbcbcb
+}
+
+.footer > .social-media-icons >.icon-wrapper > .icon a:hover {
+    color: #cea135;
+}
+
+.footer > .bottom-text {
+    background-color: #272727;
+}

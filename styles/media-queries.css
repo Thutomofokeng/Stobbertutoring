@@ -93,7 +93,7 @@
     }
 
     .nav-links > .navigation-links {
-        height: 180px
+        height: Auto;
     }
 
     .page-container {

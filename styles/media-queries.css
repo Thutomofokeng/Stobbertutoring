@@ -92,7 +92,7 @@
         justify-items: center !important;
     }
 
-    .nav-links > .navigation-links {
+    .skewed-header-wrapper > .nav-links > .navigation-links {
         height: Auto !important;
     }
 

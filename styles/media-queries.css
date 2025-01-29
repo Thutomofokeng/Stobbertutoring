@@ -70,14 +70,7 @@
 
     /*Skewed Header*/
 
-    .nav-links {
-        position: relative;
-        z-index: 10;
-    }
-
     .skewed-header-wrapper {
-        position: relative;
-        z-index: 5;
         padding-top: 100px; /* Ensures space below the header */
     }
 

@@ -20,6 +20,60 @@
 
     </head>
     <body> 
+
+         <style>
+        .dropdown {
+            position: absolute;
+            top: 10px;
+            Left: 10px;
+            display: none;
+        }
+
+        .dropdown button {
+            background-color: transparent;
+            color: white;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            left: 0;
+            background-color: transparent;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .dropdown-content a:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        @media (max-width: 650px) {
+            .nav-links {
+                display: none;
+            }
+            .dropdown {
+                display: block;
+            }
+        }
+    </style>
+        
         <div class="skewed-header">
             <div class="header-bg" style="background-image: url(images/backgrounds/Stobber_Homapage_BG.png);"></div>
 
@@ -49,17 +103,6 @@
                     </div>
                 </div>
              </div>
-
-                 <!-- Dropdown Menu for Mobile -->
-            <div class="dropdown">
-                <button>Menu</button>
-                <div class="dropdown-content">
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="Services.html">Services</a>
-                    <a href="Contact.html">Contact</a>
-                </div>
-            </div>
                 
             </div>
 

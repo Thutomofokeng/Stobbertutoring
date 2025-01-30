@@ -89,3 +89,8 @@
     width: 300px;
     padding: 10px;
 }
+
+.skewed-header > .dropdown {
+    background: tarnsperant;
+    font: Unbuntu;
+}

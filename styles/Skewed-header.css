@@ -99,7 +99,7 @@
 /* Dropdown button */
 .dropdown button {
     background-color: transparent; /* Fully transparent background */
-    border: 2px solid white; /* Keeps a visible border */
+    border: 0px solid white; /* Keeps a visible border */
     color: white; /* Text color */
     padding: 10px 15px;
     font-size: 16px;
@@ -115,7 +115,7 @@
 /* Dropdown content */
 .dropdown-content {
     background-color: transparent; /* Fully transparent background */
-    border: 1px solid rgba(255, 255, 255, 0.5); /* Keeps a subtle border */
+    border: 0px solid rgba(255, 255, 255, 0.5); /* Keeps a subtle border */
     color: white;
     position: absolute;
     min-width: 160px;

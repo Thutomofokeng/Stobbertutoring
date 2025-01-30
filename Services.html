@@ -21,11 +21,11 @@
     </head>
     <body> 
 
-         <style>
+          <style>
         .dropdown {
             position: absolute;
             top: 10px;
-            Left: 10px;
+            Letf: 10px;
             display: none;
         }
 
@@ -43,9 +43,12 @@
             display: none;
             position: absolute;
             left: 0;
-            background-color: transparent;
+            background: rgba(0, 0, 0, 0.3); /* 30% opacity black */
+            backdrop-filter: blur(10px); /* Blur effect */
             min-width: 160px;
             z-index: 1;
+            border-radius: 5px;
+            padding: 10px;
         }
 
         .dropdown-content a {
@@ -73,6 +76,8 @@
             }
         }
     </style>
+
+        <!-- Skewed Header -->
         
         <div class="skewed-header">
             <div class="header-bg" style="background-image: url(images/backgrounds/Stobber_Homapage_BG.png);"></div>

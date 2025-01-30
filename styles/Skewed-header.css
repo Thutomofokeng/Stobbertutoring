@@ -91,6 +91,15 @@
 }
 
 .skewed-header > .dropdown {
-    background: tarnsperant;
-    font: Unbuntu;
+    background-color: transparent;
+    border: 2px solid #fff; /* Adjust the color as needed */
+    color: grey; /* Adjust text color */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.skewed-header > .dropdown
+    background-color: rgba(255, 255, 255, 0.2); /* Slight hover effect */
 }

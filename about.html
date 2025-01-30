@@ -26,8 +26,8 @@
           <style>
         .dropdown {
             position: absolute;
-            top: 10px;
-            Left: 10px;
+            top: 10px !important;
+            Letf: 30px !important;
             display: none;
         }
 
@@ -45,9 +45,12 @@
             display: none;
             position: absolute;
             left: 0;
-            background-color: transparent;
+            background: rgba(0, 0, 0, 0.3); /* 30% opacity black */
+            backdrop-filter: blur(10px); /* Blur effect */
             min-width: 160px;
             z-index: 1;
+            border-radius: 5px;
+            padding: 10px;
         }
 
         .dropdown-content a {

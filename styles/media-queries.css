@@ -52,6 +52,13 @@
 
     /* Footer */
 
+     .nav-links {
+                display: none !important;
+            }
+            .dropdown {
+                display: block !important;
+            }
+
     .footer {
         height: 100%;
         width: 100%;
@@ -95,7 +102,45 @@
     .skewed-header-wrapper > .nav-links > .navigation-links {
         height: Auto !important;
     }
+    
+     .dropdown {
+            display: none;
+            position: relative;
+        }
 
+        .dropdown button {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    
     .page-container {
         padding-left: 21px;
         padding-right: 21px;

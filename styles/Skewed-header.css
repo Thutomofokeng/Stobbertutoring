@@ -90,15 +90,55 @@
     padding: 10px;
 }
 
-.button {
-    background-color: transparent;
-    color: #fff; /* Ensures text is visible */
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown button */
+.dropdown button {
+    background-color: transparent; /* Fully transparent background */
+    border: 2px solid white; /* Keeps a visible border */
+    color: white; /* Text color */
     padding: 10px 15px;
     font-size: 16px;
+    cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
 
 /* Hover effect for dropdown button */
-.button {
+.dropdown button:hover {
     background-color: rgba(255, 255, 255, 0.2); /* Slight hover effect */
+}
+
+/* Dropdown content */
+.dropdown-content {
+    background-color: transparent; /* Fully transparent background */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Keeps a subtle border */
+    color: white;
+    position: absolute;
+    min-width: 160px;
+    display: none;
+    flex-direction: column;
+    backdrop-filter: blur(10px); /* Adds a glassmorphism effect */
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: flex;
+}
+
+/* Dropdown links */
+.dropdown-content a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect for dropdown links */
+.dropdown-content a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
 }

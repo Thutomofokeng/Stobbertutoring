@@ -90,16 +90,17 @@
     padding: 10px;
 }
 
-.skewed-header > .dropdown {
+.dropdown {
     background-color: transparent;
-    border: 2px solid #fff; /* Adjust the color as needed */
-    color: #fff; /* Adjust text color */
-    padding: 10px 20px;
+    border: 2px solid #fff; /* Keeps a visible border */
+    color: #fff; /* Ensures text is visible */
+    padding: 10px 15px;
     font-size: 16px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
 
-.skewed-header > .dropdown {
+/* Hover effect for dropdown button */
+.dropdown {
     background-color: rgba(255, 255, 255, 0.2); /* Slight hover effect */
 }
